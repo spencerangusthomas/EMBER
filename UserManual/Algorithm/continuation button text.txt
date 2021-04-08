@@ -1,0 +1,7 @@
+The continuation parameters button enable users to input the necessary parameter values to perform the equation-free analysis. This includes an option for basic or advanced parameters, where advanced parameters are set to default values unless specified by the user. The advanced settings are to do with the mathematical processes involved and do not need to specified for most applications. The basic parameter settings include the: 
+1) number of agent-level simulations (realisations, N) to determine the emergent state
+2) number of ticks to run each simulation for (time horizon, tau)
+3) step size in the parameter of interest (continuation step-size, ds)
+4) total number of continuation steps 
+5) precision required for the emergent state (tolerance of the emergent solution)
+6) the initial direction of the continuation, i.e. increasing (+1) or decreasing (-1) the parameter of interest. 
