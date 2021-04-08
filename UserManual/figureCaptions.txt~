@@ -1,0 +1,9 @@
+Figure 1:
+Starting from a known equilibrium point (filled circles) numerical continuation (NC) predicts the equilibria of the system under parameter perturbations (empty circles). For small perturbations, predictions are close to the actual equilbria state and can be improved through iterative correction methods. Repeating this process provides the macroscopic behaviour of the system. Here solid (dashed) lines correspond to stable (unstable) equilibria states in the system.  
+
+
+Figure 2:
+Equation-free continuation of a system. The macroscopic behaviour of a system is estimated from an ensamble of microscopic simulations, i.e. ABM runs. 
+
+Figure 3:
+User-friendly 'black-box' package for Equation-free analysis of ABMs requiring only a model and paramter setup from the user (see repository for examples).
