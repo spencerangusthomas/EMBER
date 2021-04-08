@@ -1,0 +1,2 @@
+# Continuation along the bifurcation curve
+#b.parameter	b.X[0]	b.stdErr[0]	b.stdDev[0]	b.var[0]	b.liftAverage[0]	b.mean[0]	b.median[0]	b.solution[0]	b.eigenvalue[0]	iter	b.size	b.determinantOfJ	

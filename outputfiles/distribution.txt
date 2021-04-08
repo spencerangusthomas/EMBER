@@ -1,0 +1,2 @@
+# Distribution of realisations in the lifting stage
+# Phi(u,mu)	Phi(u,mu)-u	

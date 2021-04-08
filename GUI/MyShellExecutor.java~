@@ -1,0 +1,43 @@
+// separate thread code
+public class MyShellExecutor implements Runnable {
+	// store the command to be executed
+	private final String[] toExecute;
+	
+	public MyShellExecutor(String[] toExecute) {
+		this.toExecute = toExecute;
+	}
+
+	public void run() {
+		Runtime runtime = Runtime.getRuntime();
+		Process process = null;
+		
+		try {
+			process = runtime.exec(toExecute);
+			/*
+			int exitValue - process.waitFor();
+			System.out.println("exit value: " + exitValue);
+			BufferedReader buf = new BufferedReader(new InputStreamReader(process.getInputStream()));
+			String line = "";
+			while ((line = buf.readline()) != null) {
+				System.out.println("exec response: " + line);
+			}
+			*/
+	/*
+		} catch (InterruptedException e) {
+			if(process != null) { process.destroy(); }
+			Thread.currentThread().interrupt();
+		*/
+		} catch (IOException ie) {
+				System.out.println("error: " + ie);
+		} catch (Exception e) {
+			if (process != null) {process.destroy(); }
+		}
+	
+	}
+
+}
+
+
+
+
+
