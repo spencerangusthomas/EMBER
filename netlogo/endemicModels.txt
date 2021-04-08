@@ -1,0 +1,4 @@
+virus models
+http://ccl.northwestern.edu/netlogo/models/epiDEMBasic
+http://ccl.northwestern.edu/netlogo/models/VirusonaNetwork
+http://ccl.northwestern.edu/netlogo/models/epiDEMTravelandControl
